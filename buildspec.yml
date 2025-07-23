@@ -12,8 +12,6 @@ phases:
     commands:
       - echo Building the React app...
       - npm run build
-      - echo Build completed. Listing 'dist' folder content:
-      - ls -R dist
 
 artifacts:
   files:
