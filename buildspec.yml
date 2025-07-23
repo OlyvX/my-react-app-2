@@ -12,7 +12,6 @@ phases:
     commands:
       - echo Building the React app...
       - npm run build
-      - ls -la dist 
 
 artifacts:
   files:
