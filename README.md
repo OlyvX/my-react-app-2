@@ -48,7 +48,7 @@ The project features a fully automated **CI/CD pipeline** using **AWS CodePipeli
 ---
 
 ### 💻 Local Development (`npm run dev`)
-![Vite Dev Terminal](docs/dev-terminal.png)
+![Vite Dev Terminal](docs/docsdev-terminal.png)
 
 ---
 
