@@ -1,3 +1,40 @@
+# 🏋️‍♂️ FitPulse — Fitness Landing Page
+
+**FitPulse** is a modern, responsive fitness landing page built with **React** and **TypeScript (TSX)**. It's designed to showcase fitness programs, training benefits, and promote a healthier lifestyle.
+
+The project features a fully automated **CI/CD pipeline** using **AWS CodePipeline** and **CodeBuild**, with the final site hosted as a static web app on an **Amazon S3 bucket**.
+
+---
+
+## 🌐 Live Demo
+
+🔗 [View Live Site on S3](https://fitpulse-web-bucket.s3-website-us-east-1.amazonaws.com)
+
+> Note: Hosted on a public Amazon S3 static site endpoint (no custom domain or CloudFront yet).
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚛️ **React** (with TSX)
+- 🟦 **TypeScript**
+- 🎯 **AWS CodePipeline** – orchestrates automated deployment
+- 🧱 **AWS CodeBuild** – builds the React project
+- 🪣 **Amazon S3** – hosts the static frontend
+- 🔐 **GitHub Actions** – (optional future integration)
+- 🧩 **AWS IAM** – manages secure access between AWS services
+
+---
+
+## 🔄 CI/CD Workflow
+
+1. Code is pushed to the `main` branch on GitHub.  
+2. **AWS CodePipeline** detects the change.  
+3. **CodeBuild** runs the following:  
+   ```bash
+   npm install
+   npm run build
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
