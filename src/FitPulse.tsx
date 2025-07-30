@@ -245,8 +245,8 @@ const FitPulse = () => {
             <div className="footer-section">
               <h3>Contact</h3>
               <p>📧 info@fitpulse.com</p>
-              <p>📱 +1 (555) 123-4567</p>
-              <p>📍 123 Fitness St, Health City, HC 12345</p>
+              <p>📱 +234 (701) 291-2672</p>
+              <p>📍Abuja,FCT, Nigeria.</p>
             </div>
           </div>
           <div className="footer-bottom">
