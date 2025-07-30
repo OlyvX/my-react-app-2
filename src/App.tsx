@@ -1,4 +1,4 @@
-import LandingPage from './LandingPage';
+import LandingPage from './FitPulse';
 import './App.css';
 
 function App() {
