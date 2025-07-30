@@ -1,20 +1,29 @@
-version: 0.2
+name: CI Workflow
 
-phases:
-  install:
-    runtime-versions:
-      nodejs: 22
-    commands:
-      - echo Installing dependencies...
-      - npm ci --legacy-peer-deps
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
 
+jobs:
   build:
-    commands:
-      - echo Building the React app...
-      - npm run build
+    runs-on: ubuntu-latest
 
-artifacts:
-  files:
-    - '**/*'
-  base-directory: dist
-  discard-paths: no
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22'
+
+    - name: Install dependencies
+      run: npm ci --legacy-peer-deps
+
+    - name: Build React app
+      run: npm run build
+
+    - name: Run tests (optional)
+      run: npm test
