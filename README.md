@@ -55,6 +55,13 @@ The project features a fully automated **CI/CD pipeline** using **AWS CodePipeli
 ### 📦 Deployment Build (`buildspec.yml`, `App.tsx`)
 ![Build + App](docs/buildspec-terminal.png)
 
+---
+
+### 📦 Deployment Build (`App.tsx`)
+![Build + App](docs/app.tsx-terminal.png)
+
+### 🖥️ FitPulse Landing Page (React + TypeScript + Vite)
+![FitPulse UI](docs/fitpulse-ui.png)
 
 # React + TypeScript + Vite
 
