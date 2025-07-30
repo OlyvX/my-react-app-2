@@ -60,7 +60,11 @@ The project features a fully automated **CI/CD pipeline** using **AWS CodePipeli
 ### 📦 Deployment Build (`App.tsx`)
 ![Build + App](docs/app.tsx-terminal.png)
 
-![Build Preview](docs/build-preview.gif)
+---
+
+### 📦 Deployment Build 
+📽️ [Click here to view the build GIF](docs/build-preview.gif)
+
 
 # React + TypeScript + Vite
 
