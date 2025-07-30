@@ -1,45 +1,20 @@
-jobs:
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 22
+    commands:
+      - echo Installing dependencies...
+      - npm ci --legacy-peer-deps
+
   build:
-    runs-on: ubuntu-latest
+    commands:
+      - echo Building the React app...
+      - npm run build
 
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '22'  # Use your local version or any 18+
-          
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build project
-        run: npm run build
-
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build project
-      run: npm run build
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'
-
-    - name: Install dependencies
-      run: npm install
-
-    - name: Build project
-      run: npm run build
-
-    # Optional: Run tests if you have any
-    - name: Run tests
-      run: npm test -- --watchAll=false || echo "No tests found or tests failed"
-
+artifacts:
+  files:
+    - '**/*'
+  base-directory: dist
+  discard-paths: no
