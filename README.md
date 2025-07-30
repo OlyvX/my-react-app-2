@@ -35,6 +35,27 @@ The project features a fully automated **CI/CD pipeline** using **AWS CodePipeli
    npm install
    npm run build
 
+## 📸 Screenshots
+
+### 🖥️ FitPulse Landing Page (React + TypeScript + Vite)
+![FitPulse UI](docs/fitpulse-ui2.png)
+
+---
+
+### ⚙️ AWS CI/CD Pipeline (CodePipeline + CodeBuild)
+![AWS CI/CD](docs/aws-cicd.png)
+
+---
+
+### 💻 Local Development (`npm run dev`)
+![Vite Dev Terminal](docs/dev-terminal.png)
+
+---
+
+### 📦 Deployment Build (`buildspec.yml`, `App.tsx`)
+![Build + App](docs/buildspec-terminal.png)
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
