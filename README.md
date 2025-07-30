@@ -1,3 +1,6 @@
+![Build Status](https://github.com/OlyvX/my-react-app-2/actions/workflows/build-test.yml/badge.svg)
+
+
 # 🏋️‍♂️ FitPulse — Fitness Landing Page
 
 **FitPulse** is a modern, responsive fitness landing page built with **React** and **TypeScript (TSX)**. It's designed to showcase fitness programs, training benefits, and promote a healthier lifestyle.
