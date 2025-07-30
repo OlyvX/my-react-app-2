@@ -63,7 +63,7 @@ The project features a fully automated **CI/CD pipeline** using **AWS CodePipeli
 ---
 
 ### 📦 Deployment Build 
-📽️ [Click here to view the build GIF](docs/build-preview.gif)
+📽️ [Click here to view the build GIF](docs/landing-page-preview.gif)
 
 
 # React + TypeScript + Vite
